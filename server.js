@@ -14,7 +14,6 @@ const db = knex({
   connection: {
     connectionString: process.env.DATABASE_URL,
     ssl: true,
-    // host: 'postgresql-symmetrical-62862',
     user: 'postgres',
     password: process.env.DATABASE_PASSWORD,
     database: 'smartbrain'
